@@ -1,0 +1,37 @@
+
+.summary-container {
+  padding: 1.5rem; 
+}
+
+.summary-card {
+  background-color: white;
+  display: flex;
+  border-radius: 0.375rem; 
+}
+
+.summary-icon {
+  font-size: 1.875rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d9488; 
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.summary-text {
+  padding-left: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.summary-text .welcome {
+  font-size: 1.125rem; 
+  font-weight: 600;
+}
+
+.summary-text .username {
+  font-size: 1.25rem; 
+  font-weight: 700;
+}

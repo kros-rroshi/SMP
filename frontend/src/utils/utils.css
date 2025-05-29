@@ -1,0 +1,81 @@
+.employee-button-group {
+  display: flex;
+  gap: 0.75rem; /* E njëjtë me Tailwind `space-x-3` */
+}
+
+.btn-view {
+  padding: 0.25rem 0.75rem;
+  background-color: #03045e; /* bg-teal-600 */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-edit {
+  padding: 0.25rem 0.75rem;
+  background-color: #03045e; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-leave {
+  padding: 0.25rem 0.75rem;
+  background-color: #dc2626; /* bg-red-600 */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-view:hover,
+.btn-edit:hover,
+.btn-leave:hover {
+  opacity: 0.85;
+}
+
+/**/
+.department-button-group {
+  display: flex;
+  gap: 0.75rem; /* E njëjtë me Tailwind `space-x-3` */
+}
+
+.btn-edit {
+  padding: 0.25rem 0.75rem;
+  background-color: #03045e; /* bg-teal-600 */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-delete {
+  padding: 0.25rem 0.75rem;
+  background-color: #dc2626; /* bg-red-600 */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-edit:hover,
+.btn-delete:hover {
+  opacity: 0.85;
+}
+/**/
+.leave-btn {
+  padding: 0.25rem 1rem; /* e njëjtë me Tailwind px-4 py-1 */
+  background-color: #03045e; /* bg-teal-500 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.leave-btn:hover {
+  background-color: #03045e; /* bg-teal-600 */
+}
+

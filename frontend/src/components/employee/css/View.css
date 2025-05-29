@@ -1,0 +1,36 @@
+.employee-view-container {
+  max-width: 768px;
+  margin: 2.5rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-view-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.employee-details-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.employee-info-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.label {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 500;
+}

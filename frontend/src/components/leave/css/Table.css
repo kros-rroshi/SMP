@@ -1,0 +1,49 @@
+.table-container {
+  padding: 1.5rem;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.table-title h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.table-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #03045e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #ffffff;
+  color: #03045e;
+}
+
+.table-wrapper {
+  margin-top: 1rem;
+}
+

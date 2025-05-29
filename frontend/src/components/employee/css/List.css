@@ -1,0 +1,38 @@
+.employee-list-container {
+  padding: 1.5rem; 
+}
+
+.employee-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.employee-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.employee-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  background-color: #03045e; 
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: #03045e; 
+}
+
+.employee-table {
+  margin-top: 1.5rem;
+}

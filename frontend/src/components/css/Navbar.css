@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0 1.25rem;
+  background-color: #03045e;
+  color: #ffffff;
+  border-bottom: 0.15rem solid #ffffff;
+}
+
+.logout-button {
+  padding: 0.25rem 1rem;
+  color: #023e8a;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.logout-button:hover {
+  background-color: #03045e;
+  color: #ffffff; 
+}

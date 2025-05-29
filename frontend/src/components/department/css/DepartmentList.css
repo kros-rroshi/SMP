@@ -1,0 +1,30 @@
+
+.container {
+  padding: 1.25rem; 
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem; 
+  font-weight: 700; 
+}
+
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.addButton {
+  padding: 0.25rem 1rem; 
+  background-color: #03045e; 
+  border-radius: 0.25rem; 
+  color: white;
+  text-decoration: none;
+}
+
+
+.dataTableContainer {
+  margin-top:0rem;
+}
+
